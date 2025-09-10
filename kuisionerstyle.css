@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BEE0EC;
+    height: 100vh;
+}
+
+.boxheader{
+    /* Header Box */
+    width: 100%;
+    position: sticky;
+    height: 120px;
+    background-color: #7CC0D8;
+    top: 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.6);
+    display: flex;
+    z-index: 3;
+}
+
+.boxheader .logo{
+    /* Logo Ingfodoc */
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.boxheader .headertext{
+    /* Teks Ingfodoc di header */
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 65px;
+    font-family: "Koulen", sans-serif;
+}
+
+.headerhome{
+    /* Link Home */
+    font-family: "Inria Serif", serif;
+    color: white;
+    font-size: 28px;
+    right: 30%;
+    font-weight: 100;
+    margin-top: 37px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.headeraboutus{
+    /* Link AboutUs */
+    font-family: "Inria Serif", serif;
+    color: white;
+    font-size: 28px;
+    right: 16%;
+    font-weight: 100;
+    margin-top: 37px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.headerlogin{
+    /* Button Login */
+    font-family: "Inria Serif", serif;
+    color: white;
+    font-size: 28px;
+    right: 3%;
+    font-weight: 100;
+    margin-top: 20px;
+    position: absolute;
+    text-decoration: none;
+    background-color: #134B5F;
+    height: 70px;
+    width: 130px;
+    border-radius: 15px;
+    border: 0px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-family: "Itim", cursive;
+    color: white;
+    /* text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; */
+}
+/* .baris {
+    display: absolute;
+    left: 100px;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: "Inria Serif", serif;
+} */
+
+.border {
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+
+.raynard{
+    font-size: 50px;
+    color: white;
+    background-color: #134B5F;
+    padding: 10px;
+    position: absolute;
+    right: 100px;
+    top: 110px;
+    font-family: "Itim", cursive;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+
+.raynard:hover {
+    transform: scale(1.1);
+    color: yellow;
+    transition: 0.2s;
+
+}
+
+
+.hero {
+    width: 100%;
+    background:  rgb(6, 224, 231);
+    color: black;
+    
+}
+.container {
+    position: absolute;
+    left: 75px;
+    top: 200px;
+    width: 1200px;
+    height: 400px;
+    padding: 25px 40px 25px 25px;
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: flex-start; 
+    font-family: "Itim", cursive;
+}
+
+legend {
+    font-size: 20px;
+}
+
+[class^="row"] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 0px;
+    font-size: 20px;
+    width: 200px;
+     height: 100px;
+     text-align: right;
+     margin-bottom: 40px;
+}
+
+
+label {
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+input {
+    margin-right: 30px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* opacity: 0; */
+}
+
+.headerhome:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.headeraboutus:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.headerlogin:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
+
+.boxfooter{
+    /* Box footernya */
+    width: 100%;
+    height: 150px;
+    background-color: #134B5F;
+    display: inline-flex;
+    z-index: 2;
+    margin-top: auto;
+    margin-top: 700px;
+}
+
+.p1{ 
+    /* Tulisan Ingfodoc di footer */
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 60px;
+    color: white;
+    font-size: 30px;
+    font-family: "Inria Serif", serif;
+}
+
+.p2{
+    /* Tulisan Contact us di footer */
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 550px;
+    color: white;
+    font-size: 30px;
+    font-family: "Inria Serif", serif;
+}
+
+.telepon {
+    /* Gambar telepon */
+    height: 30px;
+    width: 30px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.p3{
+    /* Tulisan nomor telepon */
+    text-align: left;
+    margin-top: 65px;
+    margin-left: 30px;
+    color: white;
+    font-size: 24px;
+    font-family: "Inria Serif", serif;
+}
+

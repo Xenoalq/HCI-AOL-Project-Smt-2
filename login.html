@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" 
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./loginstyle.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="boxheader">
+        <img src="images/logo.png" alt="" class="logo">
+        <p class="headertext">INGFODOC</p>
+        <a href="./home.html" class="headerhome">Home</a>
+        <a href="./aboutus.html" class="headeraboutus">About Us</a>
+        <a href="./login.html">
+            <button class="headerlogin">Log In</button>
+        </a>
+    </div>
+
+    <img src="./images/doktergede.png" alt="" style="float: left;">
+
+    <div class="main-content">
+        <form method="post" action="./home.html" class="form" onsubmit="return validateForm()">
+            <h2 class="signup_text">Login</h2>
+            <label for="emailorphone" class="petunjuk_text" style="padding-left: 90px;">Email/Phone Number</label>
+            <input class="input_textbox_email" type="text" placeholder="Enter Your Email/Phone Number" id="emailorphone" name="emailorphone">
+            <br>
+            <br>
+            <label for="pass" class="petunjuk_text" style="padding-left: 90px;">Password</label>
+            <input class="input_textbox_password" type="password" placeholder="Enter Your Password" id="pass" name="pass">
+            <br>
+            <button type="submit" class="login_button">Login</button>
+            <br>
+            <br>
+            <br>
+            <div class="space"></div>
+            <a href="signup.html" class="signuptext">Don't have an account? Sign up</a>
+        </form>
+    </div>
+
+    <!-- footer -->
+    <img src="images/bawah.png" alt="" class="vektorbawah">
+
+    <div class="boxfooter">
+        <p class="p1">Ingfodoc © 2024</p>
+        <p class="p2">Contact Us</p>
+        <img src="images/telepon.png" alt="" class="telepon">
+        <p class="p3">081338469106</p>
+    </div>
+    <script src="loginscript.js"></script>
+</body>
+</html>

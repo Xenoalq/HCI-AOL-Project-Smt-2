@@ -1,0 +1,256 @@
+body{
+    /* Background + Page */
+    background-color: #BEE0EC;
+    margin: 0px;
+    padding: 0px;
+    height: 700px;
+}
+
+
+.boxheader{
+    /* Header Box */
+    width: 100%;
+    position: sticky;
+    height: 120px;
+    background-color: #7CC0D8;
+    top: 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.6);
+    display: flex;
+    z-index: 3;
+}
+
+.boxheader .logo{
+    /* Logo Ingfodoc */
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.boxheader .headertext{
+    /* Teks Ingfodoc di header */
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 65px;
+    font-family: "Koulen", sans-serif;
+}
+
+.headerhome{
+    /* Link Home */
+    font-family: "Inria Serif", serif;
+    color: white;
+    font-size: 28px;
+    right: 30%;
+    font-weight: 100;
+    margin-top: 37px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.headeraboutus{
+    /* Link AboutUs */
+    font-family: "Inria Serif", serif;
+    color: white;
+    font-size: 28px;
+    right: 16%;
+    font-weight: 100;
+    margin-top: 37px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.headerlogin{
+    /* Button Login */
+    font-family: "Inria Serif", serif;
+    color: white;
+    font-size: 28px;
+    right: 3%;
+    font-weight: 100;
+    margin-top: 20px;
+    position: absolute;
+    text-decoration: none;
+    background-color: #134B5F;
+    height: 70px;
+    width: 130px;
+    border-radius: 15px;
+    border: 0px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+.headerhome:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.headeraboutus:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.headerlogin:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.middle {
+    /* Bagian tengah */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.vektorbawah{
+    /* Gambar Transparan di footer */
+    position: absolute;
+    margin-top: -500px;
+    width: 70%;
+    height: 700px;
+    right: 0;
+    z-index: -1;
+    margin-left: -666px;
+}
+
+.signup_text {
+    /* Tulisan Sign Up */
+    font-family: "Itim", cursive;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size: 70px;
+    color: #134B5F;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.petunjuk_text{
+    /* Petunjuk Text */
+    font-family: "Itim", cursive;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #134B5F;
+}
+
+.signuptext{
+    font-family: "Itim", cursive;
+    font-size: 30px;
+    color: #134B5F;
+    position: relative;
+    margin-left: 220px;
+}
+
+.signuptext:hover{
+    transition: 0.2s;
+    color: magenta;
+}
+
+.input_textbox_email{
+    /* Textbox buat input */
+    padding: 10px 20px;
+    width: 45%;
+    margin-bottom: 5px; 
+    font-size: 20px;
+    font-family: "Itim", cursive;
+    box-sizing: border-box;
+    border-radius: 40px;
+    position: relative;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.input_textbox_password{
+    /* Textbox buat input */
+    padding: 10px 20px;
+    width: 45%;
+    margin-bottom: 5px; 
+    font-size: 20px;
+    font-family: "Itim", cursive;
+    box-sizing: border-box;
+    border-radius: 40px;
+    position: relative;
+    margin-left: 72px;
+    margin-top: 10px;
+}
+.space{
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.login_button{
+    /* Button Login */
+    margin-top: 70px;
+    top: 60%;
+    height: 100px;
+    width: 200px;
+    background-color: #7CC0D8;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 45px;
+    font-family: "Itim", cursive;
+    text-shadow: 0px 0px 10px rgba(0,0,0,.4);
+    cursor: pointer;
+    margin-left: 320px;
+
+}
+
+.login_button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.boxfooter{
+    /* Box footernya */
+    width: 100%;
+    height: 150px;
+    background-color: #134B5F;
+    display: inline-flex;
+    z-index: 2;
+    margin-top: auto;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -666px;
+}
+
+.p1{ 
+    /* Tulisan Ingfodoc di footer */
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 60px;
+    color: white;
+    font-size: 30px;
+    font-family: "Inria Serif", serif;
+}
+
+.p2{
+    /* Tulisan Contact us di footer */
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 550px;
+    color: white;
+    font-size: 30px;
+    font-family: "Inria Serif", serif;
+}
+
+.telepon {
+    /* Gambar telepon */
+    height: 30px;
+    width: 30px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.p3{
+    /* Tulisan nomor telepon */
+    text-align: left;
+    margin-top: 65px;
+    margin-left: 30px;
+    color: white;
+    font-size: 24px;
+    font-family: "Inria Serif", serif;
+}
